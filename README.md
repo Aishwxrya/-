@@ -28,7 +28,7 @@ This project is a Python-based tool for performing various analyses on DNA and R
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/genome-sequence-analysis.git
+   git clone https://github.com/Aishwxrya/genome-sequence-analysis.git
    cd genome-sequence-analysis
    ```
 
