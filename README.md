@@ -53,22 +53,7 @@ from genome_analysis import transcription, translation, nucleotide_count, palind
 Example usage:
 
 ```python
-dna_sequence = "ATCGATCGATCG"
-rna_sequence = transcription(dna_sequence)
-protein_sequence = translation(rna_sequence)
-
-a_count = calculate_nucleotide_count(dna_sequence, 'A')
-t_count = calculate_nucleotide_count(dna_sequence, 'T')
-c_count = calculate_nucleotide_count(dna_sequence, 'C')
-g_count = calculate_nucleotide_count(dna_sequence, 'G')
-
-at_content = calculate_at_content(dna_sequence)
-cg_content = calculate_cg_content(dna_sequence)
-
-is_palindromic = palindrome_check(dna_sequence)
-
-dna_length = calculate_sequence_length(dna_sequence)
-rna_length = calculate_sequence_length(rna_sequence)
+Input the sequence file and choose the operations you wish to perform on the DNA
 ```
 
 ## Contributing
